@@ -1,6 +1,6 @@
 
 body {
-    padding-bottom: 30px;
+    padding-bottom: 120px;
     background:url("images/milky-way.jpg");
 }
 .jumbotron {
@@ -38,7 +38,9 @@ body {
    font-size: 40px;
    border-top: 3px solid aqua;
  
-
+.navbar-fixed-bottom {
+    border-top: 5px solid aqua;
+}
     
 }
 footer {
@@ -100,7 +102,7 @@ a img:hover {
     outline-offset: 2px;
     
 }
-nav li:hover {
+.navbar-right li:hover {
  border-left: 3px solid aqua;
  font-size: 25px;   
  font-weight: bold; 
@@ -117,20 +119,56 @@ nav li:hover {
     margin-left: 30px;
     margin-right: 30px;
 }
-
-
-@media (max-width: 650px) {
-#bottomBox {
- width:90%;
- }
- #bottomBox img {
-     margin: auto;
- }
- 
+#socialLinks {
+    height: 60px;
+    
+    
 }
+#socialLinks img {
+    height: 70px;
+}
+.list-inline {
+    margin-left: -45px;
+}
+.btn-group {
+    bottom: 15px;
+}
+
 
 @media (max-width: 767px) {
   .well img {
       margin:auto;
   }  
+  a img:hover {
+      outline: 2px solid aqua;
+      outline-offset: -5px;
+  }
+  .btn-group {
+      bottom: 10px;
+  }
+  #pageLinks {
+      margin-top: 30px;
+  }
+}
+@media (max-width:450px){
+    #socialLinks img {
+        height: 50px;
+    }
+    .btn-group {
+        width: 360px;
+    }
+    a img:hover {
+        outline: 0;
+    }
+    .navbar-brand:hover {
+        font-size: 25px;
+    }
+}
+@media (min-width: 1430px){
+    .btn-group {
+        margin-bottom: 30px;
+    }
+    #pageLinks {
+        padding-top: 50px;
+    }
 }
