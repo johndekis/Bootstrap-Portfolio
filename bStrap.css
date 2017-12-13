@@ -39,10 +39,7 @@ body {
    font-size: 40px;
    border-top: 3px solid aqua;
 }
-/*.navbar-fixed-bottom {
-    border-top: 5px solid aqua;
-}*/
-    
+
 
 footer {
     background-color: #333;
@@ -133,7 +130,7 @@ a img:hover {
     bottom: 15px;
 }
 
-
+/*media queries*/
 @media (max-width: 767px) {
   .well img {
       margin:auto;
@@ -151,8 +148,7 @@ a img:hover {
   footer p {
     padding: 10px;
     font-size: 12px;
-    
-}
+ }
 }
 @media (max-width:450px){
     #socialLinks img {
