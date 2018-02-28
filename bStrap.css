@@ -19,7 +19,13 @@ body {
 }
 .well img {
     margin:auto;
+    height: 350px;
+    width: 450px;
+    padding: 0;
 }
+
+
+
 .well img:hover {
     outline: 5px solid aqua;
     outline-offset: 5px;
@@ -39,6 +45,8 @@ body {
    font-size: 40px;
    border-top: 3px solid aqua;
 }
+
+
 
 
 footer {
