@@ -1,0 +1,60 @@
+body {
+    padding-bottom: 30em;
+}
+
+.me {
+    height: 10em;
+    margin: 0 auto;
+    border-radius: 2em;
+}
+
+.blurb {
+    text-align: center;
+}
+
+.tech img {
+    width: 3em;
+
+}
+
+.portfolio {
+    height: 10em;
+    margin: .5em;
+}
+
+.project .row {
+    border: .1em solid #333;
+    margin: .3em;
+}
+
+
+footer {
+    background-color:#333;
+}
+
+.social {
+    margin: 0 auto;
+    
+}
+
+.social img {
+    height: 3em;
+    margin: 0 auto;
+}
+
+.copy{
+    color: white;
+}
+
+@media (min-width:750px) {
+    .content {
+        width: 80%;
+    }
+    .portfolio {
+        height: 25em;
+    }
+    .tech img {
+        width: 6em;
+    }
+}
+

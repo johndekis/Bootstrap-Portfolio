@@ -1,11 +1,13 @@
 
 body {
     padding-bottom: 120px;
-    background:url("images/milky-way.jpg");
+    /* background:url("images/milky-way.jpg"); */
+    background-color: black;
+
 }
 .jumbotron {
-    background:url("images/milky-way.jpg");
-    
+    /* background:url("images/milky-way.jpg"); */
+    background-color: black;
     color: white;
     
 }
@@ -44,6 +46,10 @@ body {
    color: aqua;
    font-size: 40px;
    border-top: 3px solid aqua;
+}
+
+.me {
+    border-radius: 1em;
 }
 
 

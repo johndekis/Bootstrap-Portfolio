@@ -1,90 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bStrap.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
-    <title>About Me</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>About</title>
 </head>
 <body>
-<!-- Navbar Header -->
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <div class="container">
-                <a class="navbar-brand" href="#"><strong>John Dekis</strong></a>
-            </div>
-        </div>
-                
-        <ul class="nav navbar-nav navbar-right" id="pageLinks">
-            <li class="active"><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-  
-<div class="container-fluid">
-    <div class="row jumbotron">
-        
-        <div class="col-md-4 col-md-offset-0 col-sm-offset-2 col-xs-offset-0 col-sm-12 col-lg-4"><!-- Profile Pic -->
-            <img src="images/profilepicture2.png" class="img-responsive panel panel-default" style="width: 500px" alt="photo of John Dekis">  
-        </div> 
-            
-        <div class="col-md-8 col-sm-12 col-lg-8"><!-- about section -->
-            <div class="panel panel-default">
-                <h1>About</h1> 
-                    <p class="panel panel-body lead">
-                        After high school, I studied nutrition for a year before persuing an Associate's degree in Culinary Arts. I spent about 7 years working in restaurants and kitchens and in that time I learned a great deal. I honed my knife skills and practiced plating technique in some of the best restaurants in the country, but after working my way up the ranks, I found the career outlook and lifestyle factors that came along with professional cooking to be pretty weak.
-                    </p>        
-                    <p class="panel panel-body">
-                        After some time spent just working jobs to get by, I began to think about a new career for myself. It seemed logical to me that I should find something to capitalize on my aptitiude for art and creativity, but this time with a greater emphasis on a more satisfying career. Then a friend of mine got me interested in coding and programming and after looking into it for myself, everything seemed to click into place.
-                    </p>
-                    <p class="panel panel-body">     
-                        So now I study programming language all the time. I am all about learning new techniques and practicing their application. I would love to be a full stack developer working on sites and apps and then look towards video game creation. I also love video games. Maybe I can make the next Skyrim.
-                            
-                        When I am not working on school or playing video games, I am usually in the gym practicing my Kickboxing or eating the delicious food that I still know how to make
-                    </p>            
-            </div>
-        </div><!-- about section -->
-    
-    </div>
-</div>
 
-<!--Footer-->
-<footer class="navbar-fixed-bottom">
+    <!-- Navbar Header -->
+<nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><strong>John Dekis</strong></a>
+                </div>
+            </div>
+                    
+            <!-- <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul> -->
+        </div>
+</nav>
+
+<!-- header section -->
+<header class="top jumbotron">
+    <!-- profile pic -->
+    <img src="assets/images/me.png" class="me img-responsive" alt="photo of John Dekis"> 
+    <!-- about -->
+    <div class="blurb">
+        <p>Web Developer</p>
+    </div>
+</header>    
+
+    <!-- 3-4 solid portfolio projects -->
+    <div class="container-fluid project content">
+        <!-- row 1 -->
+        <div class="row well">
+            <div class="about col-xs-12 col-sm-7">
+                <h3><b>Eat Da Burger App:</b></h3><h4> Using MySql and handlenars, this app lets you create a list of burgers and then eat them to send them to the devoured list.</h4>
+           
+            </div>  
+             <div class="preview col-xs-6 col-sm-4 ">
+                <img class="img-responsive portfolio" src="assets/images/burger-slim.png">
+            </div>
+            <div class="tech col-xs-6 col-sm-10 col-lg-6">
+                <p><b>made with:</b></p>
+                <ul class="list-inline">
+                    <li><img src="assets/images/node-logo.png" alt="Node.js"></li>
+                    <li><img src="assets/images/mysql-logo.png" alt="mysql"></li>
+                    <li><img src="assets/images/express-logo.png" alt="express"></li>
+                    <li><img src="assets/images/handlebars-logo.png" alt="handlebars"></li>
+                    <li><img src="assets/images/heroku-logo.jpg" alt="heroku"></li>
+                </ul>
+            </div>    
+            <br>
+            <a href="https://github.com/johndekis/burger" target="_blank"> Github Repo</a> <br> 
+            <a href="http://pacific-hamlet-48961.herokuapp.com/burgers" target="_blank">Heroku Page</a>
+                       
+        </div>
+
+        <!-- row 2 -->
+        <div class="row well">
+
+            <div class="about col-xs-12 col-sm-7" >
+                <h3><b>Bamazon:</b></h3><h4>Node command line storefront. This app has a customer portal for viewing and buying products and a manager portal for re-stocking inventory and adding new items.</h4>
+            </div>
+
+            <div class="preview col-xs-6 col-sm-4">
+                <img class="img-responsive portfolio" src="assets/images/Bamazon.jpg">
+            </div>
+
+            <div class="tech col-xs-6 col-sm-6">
+                <p><b>made with:</b></p>
+                <ul class="list-inline">
+                    <li><img src="assets/images/node-logo.png" alt="Node.js"></li>
+                    <li><img src="assets/images/mysql-logo.png" alt="mysql"></li>
+                    <li><img src="assets/images/express-logo.png" alt="express"></li>                                        
+                </ul>
+            </div>
+
+            <a href="https://github.com/johndekis/bamazon" target="_blank"> Github Repo </a>
+            
+        </div>
+
+        <!-- row 3 -->
+        <div class="row well">
+            
+                 <div class="about  col-xs-12 col-sm-7">
+                    <h3> <b>Park Finder:</b></h3><h4> lightweight app made for searching and posting infomation on parks in Charlotte, NC. Users select desired criteria such as basketball courts or dog parks, and results are displayed on a map.</h4>
+                    
+                </div>
+
+                <div class="preview col-xs-6 col-sm-4">
+                <img class="img-responsive portfolio" src="assets/images/parks-app-slim.png">
+                </div> 
+
+                <div class="tech col-xs-6 col-sm-10">
+                    <p><b>made with:</b></p>
+                    <ul class="list-inline">
+                        <li><img src="assets/images/node-logo.png" alt="Node.js"></li>
+                        <li><img src="assets/images/sequelize-logo.png" alt="sequelize"></li>
+                        <li><img src="assets/images/express-logo.png" alt="express"></li>
+                        <li><img src="assets/images/handlebars-logo.png" alt="handlebars"></li>
+                        <li><img src="assets/images/pure-logo.png" alt="pure css"></li>
+                        
+                    </ul>
+            
+                </div>
+                <br>
+                <a href="https://github.com/Bmacclt/parksandrec" target="_blank">Github Repo </a>
+
+        </div>          
+        
+            
+    </div>
     
-    <div class="container-fluid" style="border-top: 3px solid aqua">
+<!-- techs I use -->
+
+
+<!-- contact -->
+
+
+
+<!-- footer  -->
+<footer class="navbar-fixed-bottom">
+
+    <div class="container-fluid">
         <div class="footer-copyright">
             <div class="container-fluid row">
-                <div class="container btn-group col-lg-6 col-md-8 col-sm-8 col-xs-12 ">
-                    <ul class="list-inline" id="socialLinks">
-                        <li><a href="https://www.linkedin.com/in/john-dekis/" type="button" class="btn navbar-btn">
-                            <img class="img-responsive" src="images/if_linkedin_386655.png" alt="linkedin logo"></a>
+                <div class="container btn-group col-xs-12 col-xs-offset-2 col-lg-offset-5">
+                    <!-- social links -->
+                    <ul class="list-inline social">
+                        <li><a href="https://www.linkedin.com/in/john-dekis/" class="btn navbar-btn" target="_blank">
+                            <img class="img-responsive" src="assets/images/if_linkedin_386655.png" alt="linkedin logo"></a>
                         </li>
-                        <li><a href="https://github.com/settings/profile" type="button" class="btn navbar-btn">
-                            <img class="img-responsive" src="images/if_github_253591.png" alt="github logo"></a>
+                        <li><a href="https://github.com/settings/profile" class="btn navbar-btn" target="_blank">
+                            <img class="img-responsive" src="assets/images/if_github_253591.png" alt="github logo"></a>
                         </li>
-                        <li><a href="https://stackoverflow.com/users/8890820/john-dekis?tab=profile" type="button" class="btn navbar-btn">
-                            <img class="img-responsive"src="images/if_overflow_334695.png" alt="stacked overflow logo"></a>
+                        <li><a href="https://stackoverflow.com/users/8890820/john-dekis?tab=profile" class="btn navbar-btn" target="_blank">
+                            <img class="img-responsive"src="assets/images/if_overflow_334695.png" alt="stacked overflow logo"></a>
                         </li>
                     </ul>
                 </div>
                     
-                <div class="col-lg-4 col-md-4 col-sm-4  col-xs-12">
+                <div class="col-xs-12  copy">
                     <p class="text-center">© 2017 Copyright: <a href="#"> John Dekis </a></p>
                 </div>        
                 
             </div>
         </div>
     </div> 
-    
+        
 </footer>
-  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    
 </body>
 </html>
