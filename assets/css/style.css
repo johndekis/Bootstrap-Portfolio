@@ -1,15 +1,29 @@
 body {
-    padding-bottom: 30em;
+    padding-bottom: 20em;
+}
+
+header {
+    background: #333;
+    color: white;
 }
 
 .me {
-    height: 10em;
+    height: 12em;
     margin: 0 auto;
     border-radius: 2em;
 }
 
 .blurb {
     text-align: center;
+    color: white;
+}
+
+.well {
+    background-color: rgba(76, 125, 189, 0.555);
+}
+
+.tech {
+    background-color: #f8f8ffdc;
 }
 
 .tech img {
@@ -48,10 +62,10 @@ footer {
 
 @media (min-width:750px) {
     .content {
-        width: 80%;
+        width: 75%;
     }
     .portfolio {
-        height: 25em;
+        height: 15em;
     }
     .tech img {
         width: 6em;
