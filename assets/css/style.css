@@ -9,8 +9,10 @@ header {
 
 .me {
     height: 12em;
-    margin: 0 auto;
+    margin: 1em auto;
     border-radius: 2em;
+    border: .2em solid white;
+    
 }
 
 .blurb {
@@ -20,24 +22,35 @@ header {
 
 .well {
     background-color: rgba(76, 125, 189, 0.555);
+    
 }
 
 .tech {
     background-color: #f8f8ffdc;
+    border-radius: 1em;
+    
+}
+
+.tech ul {
+    margin: 0 auto;
+    padding-left: 0;
 }
 
 .tech img {
-    width: 3em;
+    width: 5em;
+    
 
 }
 
 .portfolio {
     height: 10em;
     margin: .5em;
+    border-radius: 1em;
+    border: .2em solid white;
 }
 
 .project .row {
-    border: .1em solid #333;
+  
     margin: .3em;
 }
 
@@ -48,12 +61,14 @@ footer {
 
 .social {
     margin: 0 auto;
-    
+        
 }
 
 .social img {
-    height: 3em;
+    height: 2.5em;
     margin: 0 auto;
+    position: relative;
+    right: 2em;
 }
 
 .copy{
@@ -70,5 +85,12 @@ footer {
     .tech img {
         width: 6em;
     }
+    .tech ul {
+        padding-left: 5em;
+    }
+
+    /* .social img {
+        right: -8em;
+    } */
 }
 

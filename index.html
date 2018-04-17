@@ -11,14 +11,18 @@
 <body>
 
     <!-- Header -->
-<header>
-        <h1>John Dekis</h1>
+<header class="row">
+        
                 
         <!-- profile pic -->
-        <img src="assets/images/me.png" class="me img-responsive" alt="photo of John Dekis"> 
+        <div class="col-xs-6 col-lg-4">
+            <img src="assets/images/me.png" class="me img-responsive" alt="photo of John Dekis"> 
+        </div>
+        
         <!-- about -->
-        <div class="blurb">
-            <p>Web Developer</p>
+        <div class="blurb col-xs-6 col-lg-3">
+            <h1>John Dekis</h1>
+            <p>Full Stack Web Developer</p>
         </div>
     </div>
 </header>
@@ -27,7 +31,7 @@
     <div class="container-fluid project content">
         <!-- row 1 -->
         <div class="row well">
-            <div class="about col-xs-12 col-sm-7">
+            <div class="about col-xs-12 col-sm-7 col-lg-offset-1">
                 <h3><b>Eat Da Burger App:</b></h3><h4> Using MySql and handlenars, this app lets you create a list of burgers and then eat them to send them to the devoured list, until you delete them or spit them up.</h4>
            
             </div>  
@@ -36,7 +40,7 @@
             </div>
             <div class="tech col-xs-6 col-sm-10 col-lg-offset-1">
                 <p><b>made with:</b></p>
-                <ul class="list-inline">
+                <ul class="list-inline col-xs-offset-1">
                     <li><img src="assets/images/node-logo.png" alt="Node.js"></li>
                     <li><img src="assets/images/mysql-logo.png" alt="mysql"></li>
                     <li><img src="assets/images/express-logo.png" alt="express"></li>
@@ -59,7 +63,7 @@
         <!-- row 2 -->
         <div class="row well">
 
-            <div class="about col-xs-12 col-sm-7" >
+            <div class="about col-xs-12 col-sm-7 col-lg-offset-1" >
                 <h3><b>Bamazon:</b></h3><h4>Node command line storefront. This app has a customer portal for viewing and buying products and a manager portal for re-stocking inventory and adding new items.</h4>
             </div>
 
@@ -85,7 +89,7 @@
         <!-- row 3 -->
         <div class="row well">
             
-                 <div class="about  col-xs-12 col-sm-7">
+                 <div class="about  col-xs-12 col-sm-7 col-lg-offset-1">
                     <h3> <b>Park Finder:</b></h3><h4> lightweight app made for searching and posting infomation on parks in Charlotte, NC. Users select desired criteria such as basketball courts or dog parks, and results are displayed on a map.</h4>
                     
                 </div>
