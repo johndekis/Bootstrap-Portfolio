@@ -10,8 +10,10 @@ header {
 .me {
     height: 12em;
     margin: 1em auto;
-    border-radius: 2em;
-    border: .2em solid white;
+    border-radius: 49%;
+    padding-top: .1em;
+    border: .5em solid white;
+    position: absolute;
     
 }
 
@@ -51,7 +53,7 @@ header {
 
 .project .row {
   
-    margin: .3em;
+    margin: .5em;
 }
 
 
@@ -73,6 +75,20 @@ footer {
 
 .copy{
     color: white;
+    position: relative;
+    right: 2em;
+}
+
+@media(min-width:475px){
+    .me{
+        left: 4em;
+    } 
+    header {
+        height: 14em;
+    }
+    .social {
+        /* left: 10em; */
+    }
 }
 
 @media (min-width:750px) {
@@ -89,8 +105,34 @@ footer {
         padding-left: 5em;
     }
 
+   .social {
+       /* left: 20em; */
+   }
+
     /* .social img {
         right: -8em;
     } */
 }
+
+@media (min-width:1200px) {
+    .me {
+        left: 0;
+        right: 4em; 
+        position: relative;
+        top: 6em;
+    }
+    .blurb {
+        position: relative;
+        top: 5em;
+        right: 10em;
+    }
+}
+
+/* @media (min-width:750px) {
+      .me {
+        
+        top: 7em;
+        right:3em;
+    }
+} */
 
