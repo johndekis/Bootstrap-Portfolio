@@ -6,12 +6,14 @@ h1 {
     font-size: 60px;
     font-weight: bolder;
     text-shadow: .02em .02em .02em white;
+    
 
 }
 
 h3 {
     font-family: 'Press Start 2P', cursive;
     text-shadow: 0.06em 0.06em 0.06em grey;
+    padding-bottom: 1em;
 }
 
 h4 {
@@ -55,9 +57,7 @@ header {
 
 .tech {
     background-color: #f8f8ffdc;
-    border-radius: 1em;
-    box-shadow: 0.06em 0.06em 0.06em rgba(76, 123, 212, 0.815);
-    
+    border-radius: 1em;    
 }
 
 .tech ul {
@@ -67,12 +67,19 @@ header {
 
 .tech img {
     width: 5em;
-    
+    padding: .2em;
+}
 
+.tech a {
+   box-shadow: .05em 0.05em 0.5em rgba(38, 78, 116, 0.616);
+   padding: 0 .1em;
+   border-radius: .5em;
+   position: relative;
+   bottom: 0.2em;
 }
 
 .portfolio {
-    height: 12em;
+    height: 10em;
     
     margin: .5em;
     border-radius: 1em;
